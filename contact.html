@@ -4,41 +4,64 @@
 <link rel="stylesheet" href="pstyle.css">
 <title>Kelly Nicholson</title>
 </head>
-	
-	
-	<header class="head">
-	
-		<h1 id="name">Kelly Nicholson</h1> 
-	
+
+	<div class="top">
+
+		<header>
+			<h1 class="name"> Kelly Nicholson </h1>
+		</header>
 <!--Links-->
-	<nav>	
-		<div class="nav">
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</div>
-	</nav>	
-	</header>
+		<nav>
+			<ol>
+				<li><a class="nav" href="contact.html">Contact</a></li>
+				<li><a class="nav" id="port" href="portfolio.html">Portfolio</a></li>
+				<li><a class="nav" href="index.html">About</a></li>
+			</ol>
+		</nav>
+	</div>
+		
+<br>
 
-
+	<div class="mainText">
 <!--Contact form-->
 
-	<h1>Contact</h1>
+		<h1 class="sectionHead">Contact</h1>
+			
+			<form action="mailto: email recipient" method="post" enctype="text/plain">
+			Name:<br>
+			<input type="text" name="name" size="95"><br>
+			
+			E-mail:<br>
+			<input type="text" name="mail" size="95"><br>
 
-	<img src="assets/images/placeholder.png" alt="Coming Soon">
+			Message:<br>
+			<input class="message" type="text" name="message"><br><br>
+			<input class="button" type="submit" value="Submit">
+			
+		
+		</form>
+
+
+
+
+
+	</div>
+
+	<div id="sidebar">
 
 <!--Connect Sidebar-->
 
-	<h2>Connect with Me</h2>
+		<h2>Connect with Me</h2>
 
-	<a href="https://www.facebook.com/kelly.joey.3" target="_blank"><img src="assets/images/facebook.png" alt="Facebook"></a>
+			<a href="https://www.linkedin.com/in/kelly-nicholson-78210912a" target="_blank"><img class="connect" src="assets/images/linkedin.png" alt="LinkedIn"></a>
 
-	<a href="https://www.instagram.com/kellyjoey/" target="_blank"><img src="assets/images/insta.jpg" alt="Instagram"></a>
+			<a href="https://github.com/kellyjoey" target="_blank"><img class="connect" src="assets/images/github.png" alt="GitHub"></a>
 	
-	<a href="https://twitter.com/kellyjoey75" target="_blank"><img src="assets/images/twitter.png" alt="Twitter"></a>
+			<a href="http://stackoverflow.com/users/7151758/kellyjoey" target="_blank"><img class="connect" src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
 
+	</div>
 
-	<p> Copyright 2016 Kelly Nicholson</p>
+		<footer> Copyright 2016 Kelly Nicholson</footer>
 
 
 
